@@ -1,0 +1,34 @@
+You can find all solutions to my first THM-room "RegExIt" here. I found there is no such room on THM, so I decided to make the first one and share it with you ;) 
+There may be several ways to answer the questions. I will post the answers I created. If you find your own way - GREAT!
+
+I recommend trying it on your own at first. The room is not difficult but you need certain skills using RegEx. 
+
+Task 1: [Introduction]
+----------------------
+All clear here... just read it!
+
+Task 2: [Three doors]
+---------------------
+Q1: [0-9]+ (Answer 13, 37, 89)
+Q2: Answer 89
+Q3: colou?rs?  or  col[ou]+rs? (Answer 11)
+Q4: \w{12} (Answer yellow)
+
+Task 3: [Room 2]
+----------------
+Q1: \. [Bb] (Answer 18)
+Q2: Answer shell
+Q3: \w{2}s\w{5} (Answer fastenin)
+Q4: Wel\s\w{1,3}\s\w{1,11} (Answer Welcome To Exit Room)
+
+Task 4: [Exit Room]
+-------------------
+Q1: Answer I
+Q2: [0-9]{4} 9941+9575+9931 (Answer 29447)
+Q3: [a-z][^0-9a-zA-Z]o (Answer k=o)
+Q4: Answer 5
+Q5: p.a.s.s.w.o.r.d (Answer p5awsEs7wnohr1d)
+Q6: Answer special characters
+Q7: Answer I found the key opens all windows
+
+Have fun & happy hacking!
